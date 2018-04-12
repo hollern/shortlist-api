@@ -1,0 +1,10 @@
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/bin/Debug/netcoreapp2.0/Shortlist.Api.deps.json
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/bin/Debug/netcoreapp2.0/Shortlist.Api.runtimeconfig.json
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/bin/Debug/netcoreapp2.0/Shortlist.Api.runtimeconfig.dev.json
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/bin/Debug/netcoreapp2.0/Shortlist.Api.dll
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/bin/Debug/netcoreapp2.0/Shortlist.Api.pdb
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/obj/Debug/netcoreapp2.0/Shortlist.Api.csproj.CoreCompileInputs.cache
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/obj/Debug/netcoreapp2.0/Shortlist.Api.AssemblyInfoInputs.cache
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/obj/Debug/netcoreapp2.0/Shortlist.Api.AssemblyInfo.cs
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/obj/Debug/netcoreapp2.0/Shortlist.Api.dll
+/Users/Conor/Documents/ACCTMIS3610/Shortlist.Api/obj/Debug/netcoreapp2.0/Shortlist.Api.pdb
