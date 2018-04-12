@@ -6,7 +6,7 @@ namespace Shortlist.Api.Models
     {
         public int AssessmentAnswerId{ get; set; }
         public string AssessmentAnswerText{ get; set; }
-        public Applicant RelatedEmployee{ get; set; }
-        public ApplicationQuestion RelatedAssessmentQuestion{ get; set; }
+        public Employee RelatedEmployee{ get; set; }
+        public AssessmentQuestion RelatedAssessmentQuestion{ get; set; }
     }
 }

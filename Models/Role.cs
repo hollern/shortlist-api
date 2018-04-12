@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Shortlist.Api.Models
 {
@@ -6,5 +7,7 @@ namespace Shortlist.Api.Models
     {
         public int RoleId{ get; set; }
         public string RoleName{ get; set; }
+        public List<Skill> ImportantSkills{ get; set; }
+        public Department RelatedDepartment{ get; set; }
     }
 }

@@ -7,5 +7,6 @@ namespace Shortlist.Api.Models
         public int EmployeeSkillId{ get; set; }
         public int SkillLevel{ get; set; }
         public Skill RelatedSkill{ get; set; }
+        public Employee RelatedEmployee{ get; set; }
     }
 }
