@@ -20,6 +20,7 @@ namespace Shortlist.Api.Data
         public DbSet<ApplicationQuestion> ApplicationQuestions { get; set; }
         public DbSet<Assessment> Assessments { get; set; }
         public DbSet<AssessmentQuestion> AssessmentQuestions { get; set; }
+        public DbSet<AssessmentAnswer> AssessmentAnswers { get; set; }
         public DbSet<Company> Companys { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<EmployeeSkill> EmployeeSkills { get; set; }

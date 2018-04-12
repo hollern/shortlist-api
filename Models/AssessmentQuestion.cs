@@ -8,6 +8,7 @@ namespace Shortlist.Api.Models
         public int AssessmentQuestionId{ get; set; }
         public string QuestionTitle{ get; set; }
         public int QuestionNumber{ get; set; }
-        public List<string> Answers{ get; set; }
+        public List<string> PossibleAnswers{ get; set; }
+        public Assessment RelatedAssessment{ get; set; }
     }
 }

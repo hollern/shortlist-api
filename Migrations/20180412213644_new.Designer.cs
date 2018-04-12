@@ -12,9 +12,10 @@ using System.Collections.Generic;
 namespace Shortlist.Api.Migrations
 {
     [DbContext(typeof(OrganizationContext))]
-    partial class OrganizationContextModelSnapshot : ModelSnapshot
+    [Migration("20180412213644_new")]
+    partial class @new
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

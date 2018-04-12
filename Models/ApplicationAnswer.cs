@@ -8,5 +8,6 @@ namespace Shortlist.Api.Models
         public string ApplicationAnswerText{ get; set; }
         public Applicant RelatedApplicant{ get; set; }
         public Opening RelatedOpening{ get; set; }
+        public ApplicationQuestion RelatedApplicationQuestion{ get; set; }
     }
 }
