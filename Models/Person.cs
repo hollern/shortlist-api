@@ -15,7 +15,7 @@ namespace Shortlist.Api.Models
         public string Email{ get; set; }
         public string Address{ get; set; }
         public string AdditionalDetails{ get; set; }
-        public DateTime BDate{ get; set; }
+        public string BDate{ get; set; }
         public Company RelatedCompany{ get; set; }
     }
 }
