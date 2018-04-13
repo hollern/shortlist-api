@@ -30,7 +30,7 @@ namespace Shortlist.Api.Migrations
 
                     b.Property<List<string>>("Attachments");
 
-                    b.Property<DateTime>("DateApplied");
+                    b.Property<string>("DateApplied");
 
                     b.Property<string>("GithubLink");
 
@@ -190,9 +190,9 @@ namespace Shortlist.Api.Migrations
                     b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("DateJoined");
+                    b.Property<string>("DateJoined");
 
-                    b.Property<DateTime>("DateLeft");
+                    b.Property<string>("DateLeft");
 
                     b.Property<int?>("EmployeeRoleRoleId");
 
@@ -260,7 +260,7 @@ namespace Shortlist.Api.Migrations
 
                     b.Property<string>("Address");
 
-                    b.Property<DateTime>("BDate");
+                    b.Property<string>("BDate");
 
                     b.Property<string>("Email");
 

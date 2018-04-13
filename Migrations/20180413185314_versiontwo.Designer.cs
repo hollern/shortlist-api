@@ -12,8 +12,8 @@ using System.Collections.Generic;
 namespace Shortlist.Api.Migrations
 {
     [DbContext(typeof(OrganizationContext))]
-    [Migration("20180412232417_new4")]
-    partial class new4
+    [Migration("20180413185314_versiontwo")]
+    partial class versiontwo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,7 +31,7 @@ namespace Shortlist.Api.Migrations
 
                     b.Property<List<string>>("Attachments");
 
-                    b.Property<DateTime>("DateApplied");
+                    b.Property<string>("DateApplied");
 
                     b.Property<string>("GithubLink");
 
@@ -191,9 +191,9 @@ namespace Shortlist.Api.Migrations
                     b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("DateJoined");
+                    b.Property<string>("DateJoined");
 
-                    b.Property<DateTime>("DateLeft");
+                    b.Property<string>("DateLeft");
 
                     b.Property<int?>("EmployeeRoleRoleId");
 
@@ -261,7 +261,7 @@ namespace Shortlist.Api.Migrations
 
                     b.Property<string>("Address");
 
-                    b.Property<DateTime>("BDate");
+                    b.Property<string>("BDate");
 
                     b.Property<string>("Email");
 
